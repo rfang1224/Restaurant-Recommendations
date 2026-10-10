@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant Recommender</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="page">
+        
+        <div class="sign-in">
+            <form class="login-form" action="http://127.0.0.1:5000/api/signup" method="POST">
+                <p class="box-title">Sign up to start</p>
+
+                <label for="username">Username:</label>
+                <input type="text" class="box-input" id="username" name="username" placeholder="Username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" class="box-input" id="password" name="password" placeholder="Password" required>
+
+                <label for="email">Email:</label>
+                <input type="email" class="box-input" id="email" name="email" placeholder="Email" required>
+
+                <button type="submit" class="box-button">Sign Up</button>
+
+                <button type="button" class="box-button" onclick="window.location.href='index.html'">Already have an account? Log in</button>
+            </form>
+        </div>
+    </body>
+</html>

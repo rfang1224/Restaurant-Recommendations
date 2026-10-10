@@ -1,0 +1,37 @@
+body{
+    background-color:#454444;
+}
+
+h1{
+    color:white;
+}
+
+h2{
+    color:white;
+}
+
+p{
+    color:white;
+}
+
+.search-bar{
+    width:1000px;
+    height:50px;
+    cursor:pointer;
+    border-radius:20px;
+    font-size:25px;
+    margin-bottom: 10px;
+}
+
+.search-bar::placeholder{
+    font-size:25px;
+}
+
+.recommendations{
+    display:flex;
+    flex-direction:column;
+    width:1000px;
+    border:2px solid #8c8787;
+    border-radius:20px;
+    gap:20px;
+}

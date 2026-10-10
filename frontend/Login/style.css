@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-color:#454444;
+    align-items:center;
+    min-height: 100vh;
+}
+
+p{
+    color: white;
+}
+
+label{
+    color:white;
+}
+
+:root {
+    --my-radius: 20px; 
+}
+
+.sign-in, .box-input, .box-button {
+    border-radius: var(--my-radius);
+}
+
+.box-title{
+    display:flex;
+    justify-content:center;
+    font-size:30px;
+}
+
+.box-input{
+    width:100%;
+}
+
+.box-button{
+    width:100%;
+    cursor:pointer;
+}
+
+.sign-in{
+    display:flex;
+    border:2px solid #555;
+    justify-content:center;
+    margin: 0 auto;
+    width:350px;
+    padding-bottom: 20px;
+}
+
+.login-form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    width:300px;
+}
